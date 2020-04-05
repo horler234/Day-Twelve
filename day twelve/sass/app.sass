@@ -1,0 +1,423 @@
+$very-dark-blue: hsl(243, 87%, 12%)
+$desaturated-blue: hsl(238, 22%, 44%)
+$bright-blue: hsl(224, 93%, 58%)
+$moderate-cyan: hsl(170, 45%, 43%)
+$light-grayish-blue: hsl(240, 75%, 98%)
+$light-gray: hsl(0, 0%, 75%)
+
+*
+  margin: 0
+  padding: 0
+
+html
+  box-sizing: border-box
+  scroll-behavior: smooth
+  body
+    font-family: 'Open Sans', sans-serif
+    font-size: 16px
+
+h1
+  color: $very-dark-blue
+  font-family: 'Raleway', sans-serif
+  font-size: 2.5rem
+
+p
+  color: $desaturated-blue
+
+.big-header-container
+  background: #fff
+  padding-top: 50px
+
+.container
+  max-width: 1140px
+  width: 100%
+  margin: auto
+
+.header-container
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+
+.logo-img
+  width: 70%
+
+ul.navbar-list
+  list-style: none
+  display: flex
+  li a.navbar-list-item
+    text-decoration: none
+    color: $desaturated-blue
+    padding-left: 50px
+    transition: .2s ease-in-out
+    &:hover
+      color: $light-gray
+
+.header-content
+  display: flex
+  justify-content: space-between
+  flex-wrap: wrap
+  margin-top: 80px
+
+.header-text
+  width: 50%
+  padding-top: 80px
+
+h1.header-word
+  line-height: 1.5
+  margin-bottom: 20px
+
+p.header-word-prgh
+  color: $desaturated-blue
+  margin-right: 30px
+
+form.header-form
+  display: flex
+  margin-top: 20px
+
+input.header-input
+  padding: 8px
+  padding-left: 15px
+  font-family: 'Open Sans', sans-serif
+  width: 250px
+  border: .8px solid $desaturated-blue
+  border-radius: 3px
+
+button.header-btn
+  padding: 10px 50px
+  border: transparent
+  border-radius: 3px
+  background: $bright-blue
+  color: #fff
+  margin-left: 10px
+  font-family: 'Open Sans', sans-serif
+  cursor: pointer
+  transition: .2s ease-in-out
+  -webkit-box-shadow: 0px 0px 14px -3px rgba(0,0,0,0.75)
+  -moz-box-shadow: 0px 0px 14px -3px rgba(0,0,0,0.75)
+  box-shadow: 0px 0px 14px -3px rgba(0,0,0,0.75)
+  &:hover
+    transform: scale(1.1)
+
+
+.header-img
+  width: 45%
+
+.header-illustration-img
+  width: 100%
+
+svg
+  width: 100%
+  margin-bottom: -5px
+  margin-top: 200px
+
+svg.mobile
+  display: none
+
+.stay-section
+  background: $light-grayish-blue
+
+.stay-flex
+  display: flex
+  justify-content: space-between
+  flex-wrap: wrap
+  padding: 40px 0 100px
+
+.stay-text
+  width: 55%
+
+h1.stay-word-header
+  margin-bottom: 40px
+
+p.stay-word
+  margin-right: 80px
+
+a.see-link
+  color: $moderate-cyan
+  text-underline-position: under
+
+.link-img
+  padding-top: 3px
+  padding-left: 5px
+
+.link-container
+  display: flex
+
+.quote
+  width: 40%
+  background: #fff
+  padding: 20px 40px
+  border-radius: 5px
+  margin-top: 50px
+  -webkit-box-shadow: 0px 0px 14px -3px rgba(0,0,0,0.75)
+  -moz-box-shadow: 0px 0px 14px -3px rgba(0,0,0,0.75)
+  box-shadow: 0px 0px 14px -3px rgba(0,0,0,0.75)
+
+p.avatar-testimony
+  font-size: 12px
+  line-height: 1.5
+
+.avatar-flex
+  display: flex
+  margin-top: 15px
+
+.avatar-img-container
+  width: 15%
+  margin-right: 10px
+
+.avatar-img
+  width: 100%
+  border-radius: 50%
+
+.avatar-name-container
+  padding-top: 4px
+
+h1.kyle
+  font-size: 12px
+  margin-bottom: 2px
+
+p.kyle-info
+  font-size: 10px
+
+.stay-img-container
+  width: 40%
+  padding-top: 40px
+
+img.stay-img
+  width: 100%
+
+.early-section
+  background-color: $desaturated-blue
+  padding: 80px 0
+
+.early-flex
+  display: flex
+  justify-content: space-between
+  flex-wrap: wrap
+
+.early-form
+  width: 40%
+
+.early-text
+  width: 43%
+
+
+h1.early-header
+  color: #fff
+  font-size: 2rem
+  margin-bottom: 25px
+
+p.early-word
+  color: #fff
+
+.header-input.input-early
+  width: 90%
+  margin-bottom: 20px
+  -webkit-box-shadow: 0px 0px 14px -3px rgba(0,0,0,0.75)
+  -moz-box-shadow: 0px 0px 14px -3px rgba(0,0,0,0.75)
+  box-shadow: 0px 0px 14px -3px rgba(0,0,0,0.75)
+
+.header-btn.btn-early
+  margin-left: 0
+  padding: 10px 20px
+
+footer
+  background: $very-dark-blue
+  padding: 140px 0 50px
+  color: #fff
+  font-size: 12px
+
+.footer-flex
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+
+img.footer-img
+  width: 150px
+  color: #ffffff
+  margin-bottom: 25px
+.col-1
+  width: 30%
+
+p.footer-text
+  margin-bottom: 15px
+  color: #fff
+
+.col-2
+  width: 15%
+.col-3
+  width: 20%
+
+
+.icon-flex-container
+  display: flex
+  justify-content: space-between
+
+.icon-o
+  width: 90%
+
+.icon-footer
+  width: 80%
+
+.col-3-flex
+  display: flex
+
+.col-3-items
+  margin-right: 10px
+  border: 1px solid #fff
+  height: 20px
+  width: 20px
+  border-radius: 50%
+  text-align: center
+  i
+    margin: auto
+    margin-top: 4px
+
+p.copyright
+  font-size: 8px
+  text-align: right
+  color: #fff
+
+@media (max-width: 768px)
+  h1
+    font-size: 24px
+
+  p
+    font-size: 14px
+
+  .big-header-container
+    padding-top: 20px
+
+  .container
+    width: 90%
+
+  .logo-container
+    width: 25%
+
+  img.logo-img
+    width: 100%
+
+  .nav-bar-container
+    width: 55%
+
+  ul.navbar-list li a.navbar-list-item
+    padding-left: 20px
+    font-size: 12px
+
+  .header-content
+    flex-wrap: wrap-reverse
+
+  .header-text,
+  .header-img
+    width: 100%
+
+  .header-text
+    text-align: center
+
+  p.header-word-prgh
+    margin-right: 0
+
+  form.header-form
+    flex-wrap: wrap
+
+  .header-input-container
+    width: 100%
+    input.header-input
+      width: 80%
+      font-size: 12px
+      margin-bottom: 10px
+
+  .header-btn-container
+    width: 100%
+    button.header-btn
+      width: 89%
+      margin-left: 0
+      padding: 10px 0
+      font-weight: 700
+
+  svg.desktop
+    display: none
+
+  svg.mobile
+    display: block
+    margin-top: 100px
+    margin-bottom: 0
+
+  .stay-flex
+    flex-wrap: wrap-reverse
+    padding-top: 0
+
+  .stay-img-container
+    margin-bottom: 70px
+
+  h1.stay-word-header
+    font-size: 18px
+    text-align: center
+
+  p.stay-word
+    margin: 0
+    text-align: center
+
+  .link-container
+    padding-left: 28%
+
+  .link-img
+    padding-top: 5px
+
+  a.see-link
+    font-size: 12px
+
+  .quote
+    width: 70%
+    margin: auto
+    padding-right: 20px
+    padding-left: 25px
+    margin-top: 50px
+
+  p.avatar-testimony,
+  h1.kyle
+    font-size: 10px
+
+  p.kyle-info
+    font-size: 8px
+
+  .early-section
+    text-align: center
+
+  h1.early-header
+    font-size: 20px
+
+  p.early-word
+    width: 87%
+    margin: auto
+    margin-bottom: 30px
+
+  input.header-input.input-early
+    width: 73%
+    margin-bottom: 10px
+
+  button.header-btn.btn-early
+    width: 81%
+
+
+  .col-1,
+  .col-2,
+  .col-3,
+  .stay-text,
+  .stay-img-container,
+  .early-text,
+  .early-form
+    width: 100%
+
+  .col-1
+    margin-bottom: 40px
+
+  .col-3-flex
+    width: 30%
+    margin: auto
+
+  .col-2
+    margin-bottom: 30px
+
+  p.copyright
+    text-align: center
+    margin-top: 40px
