@@ -230,9 +230,11 @@ img.footer-img {
 .col-1 {
   width: 30%; }
 
-p.footer-text {
+.footer-text {
   margin-bottom: 15px;
-  color: #fff; }
+  color: #fff;
+  text-decoration: none;
+  display: block; }
 
 .col-2 {
   width: 15%; }
